@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PORTFOLIO</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<style>
+body{
+  background-color: #F9FAFF;
+}
+.mad{
+  position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1; 
+}
+.nav-link{
+  height: 28px;
+ 
+}
+.navbar-brand{
+  height: 32px;
+  width: 130px;
+  margin-left: 120px;
+}
+.navbar-nav{
+  margin-right: 48px;
+}
+h2 {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;         
+    bottom: -8px;       
+    width: 100px;
+    height: 4px;
+    background: #FDC435;
+    border-radius: 2px;
+    opacity: 1;
+    transform: translateX(-50%); 
+}
+section.container1 {
+      margin-left: 100px !important; 
+      margin-right: auto !important;
+      text-align: left;
+    }
+  .bi-instagram:hover{
+color:orange;
+  }
+  .bi-linkedin:hover{
+    color: darkblue;
+  }
+  .bi-envelope-fill:hover{
+    color: darkgray;
+  }
+</style>
+</head>
+<body>
+
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg position-relative">
+      <div class="container-fluid d-flex align-items-center">
+        <a class="navbar-brand text-dark" href="#">Moubine Saad</a>
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+          <li class="nav-item"><a class="nav-link px-3" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <img src="/images/image.png" class="mad position-absolute top-0 end-0" >
+  </header>
+
+  <section class="container mt-5 container1" style="width: 486px" >
+    <div class="text-dark">
+      <p class="text-warning fw-bold mb-1">WEB FULL STACK DEVELOPER</p>
+      <h1 class="display-4 fw-bold mb-3" style="font-family: 'Playfair Display', serif;" >Hello, my name is Moubine Saad</h1>
+      <p class="lead mb-4">Short text with details about you, what you do or your professional career.</p>
+      <div class="d-flex gap-2  flex-wrap">
+        <a class="btn btn-warning text-dark px-4" href="#">Projects</a>
+        <a class="btn btn-outline-dark px-4" href="#">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="width: 992px;" >
+    <h2  class="display-4 fw-bold mb-3 text-center fw-bold" style="font-size: 48px;font-family: 'Playfair Display', serif;margin-top: 170px;">Projects</h2>
+    <div class="row  mt-5" style="background-color:#FFFFFF;border-radius:24px;box-shadow: 0px 6px 64px 0px #7090B01A;">
+      <div class="col-6">
+        <h1 class="display-4 fw-bold mb-3" style="font-family: 'Playfair Display', serif;" >Projects Name</h1>
+        <p class="lead mb-4">I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.</p>
+        <a class="btn btn-outline-dark px-4" href="#">View Project</a>
+      </div>
+      <div class="col-6">
+        <img src="/images/Rectangle 7.jpg" >
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="container" style="width: 992px;" >
+   <div class="row  mt-5" style="background-color:#FFFFFF;border-radius:24px;box-shadow: 0px 6px 64px 0px #7090B01A;">
+    <div class="col-6">
+      <img src="/images/Rectangle 7.jpg" >
+    </div>
+      <div class="col-6">
+        <h1 class="display-4 fw-bold mb-3" style="font-family: 'Playfair Display', serif;" >Projects Name</h1>
+        <p class="lead mb-4">I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.</p>
+        <a class="btn btn-outline-dark px-4" href="#">View Project</a>
+      </div>
+      
+    </div>
+  </section>
+
+
+
+  <section class="container" style="width: 992px;" >
+    <div class="row  mt-5" style="background-color:#FFFFFF;border-radius:24px;box-shadow: 0px 6px 64px 0px #7090B01A;">
+       <div class="col-6">
+         <h1 class="display-4 fw-bold mb-3" style="font-family: 'Playfair Display', serif;" >Projects Name</h1>
+         <p class="lead mb-4">I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.</p>
+         <a class="btn btn-outline-dark px-4" href="#">View Project</a>
+       </div>
+       <div class="col-6">
+         <img src="/images/Rectangle 7.jpg" >
+       </div>
+     </div>
+   </section>
+
+
+
+   <section class="container mt-5 mb-4" style="width: 400px;" >
+    <h2  class="display-4 fw-bold mb-3 text-center fw-bold" style="font-size: 48px;font-family: 'Playfair Display', serif;margin-top: 170px;">Projects</h2>
+    
+    <form>
+      <div class="mb-3 mt-3">
+        <label for="name" class="form-label">Name </label>
+        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="exampleTextarea" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Type here..."></textarea>
+        
+      </div>
+      <button type="submit" class="btn btn-warning text-dark px-4 d-flex" style="right: 0px;">Submit</button>
+    </form>
+  </section>
+  <footer class="container-fluid  text-dark text-center">
+    <div class="d-flex justify-content-center mb-3">
+    <a href="https://www.instagram.com/saadmoubine" target="_blank" class="text-dark mx-3">
+      <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/saad-moubine-2883a426a/" target="_blank" class="text-dark mx-3">
+      <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
+    </a>
+    <a href="mailto:saadmoubiner@email.com" class="text-dark mx-3">
+      <i class="bi bi-envelope-fill" style="font-size: 2rem;"></i>
+    </a>
+  </div>
+    <p >© Saad Moubine 2025</p>
+    <img src="/images/Vector.png" alt="Vector decoration" style="object-fit: cover;  z-index: -1; width: 100%;" >
+  </footer>
+  
+</body>
+</html>
